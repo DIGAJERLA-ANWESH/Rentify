@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Rentify</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+<header class="header">
+
+   <nav class="navbar nav-1">
+      <section class="flex">
+         <a href="home.html" class="logo"><i class="fas fa-house"></i>Rentify</a>
+
+         <ul>
+            <li><a href="#">post property<i class="fas fa-paper-plane"></i></a></li>
+         </ul>
+      </section>
+   </nav>
+
+   <nav class="navbar nav-2">
+      <section class="flex">
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+         <div class="menu">
+            <ul>
+               <li><a href="#">Deal<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">House</a></li>
+                     <li><a href="#">Apartment</a></li>
+                     <li><a href="#">Retail Shops</a></li>
+                     <li><a href="#">Townhouses</a></li>
+                     <li><a href="#">Villas</a></li>
+                     <li><a href="#">Office Spaces</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">Put on Sale<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">Post property</a></li>
+                     <li><a href="#">Dashboard</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">Lease <i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">House</a></li>
+                     <li><a href="#">Apartment</a></li>
+                     <li><a href="#">Retail Shops</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">Help<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="about.html">About us</a></i></li>
+                     <li><a href="contact.html">Contact us</a></i></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+
+         <ul>
+            <li><a href="#">Profile <i class="fas fa-angle-down"></i></a>
+               <ul>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Register</a></li>
+               </ul>
+            </li>
+         </ul>
+      </section>
+   </nav>
+
+</header>
+
+<div class="home">
+
+   <section class="center">
+
+      <form action="search.html" method="post">
+         <h3>Discover Your Ideal Residence</h3>
+         <div class="box">
+            <p>Enter Location <span>*</span></p>
+            <input type="text" name="location" required maxlength="50" placeholder="Enter City Name" class="input">
+         </div>
+         <div class="flex">
+            <div class="box">
+               <p>Property <span>*</span></p>
+               <select name="type" class="input" required>
+                  <option value="House">House</option>
+                  <option value="house">Apartment</option>
+                  <option value="shop">Retail Shops</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Number of Bedrooms <span>*</span></p>
+               <select name="bhk" class="input" required>
+                  <option value="1">1 BHK</option>
+                  <option value="2">2 BHK</option>
+                  <option value="3">3 BHK</option>
+                  <option value="4">4 BHK</option>
+                  <option value="5">5 BHK</option>
+                  <option value="6">6 BHK</option>
+                  <option value="7">7 BHK</option>
+                  <option value="8">8 BHK</option>
+                  <option value="9">9 BHK</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Min Budget <span>*</span></p>
+               <select name="minimum" class="input" required>
+                  <option value="5000000">5 lac</option>
+                  <option value="1000000">10 lac</option>
+                  <option value="2000000">20 lac</option>
+                  <option value="3000000">30 lac</option>
+                  <option value="4000000">40 lac</option>
+                  <option value="4000000">40 lac</option>
+                  <option value="5000000">50 lac</option>
+                  <option value="6000000">60 lac</option>
+                  <option value="7000000">70 lac</option>
+                  <option value="8000000">80 lac</option>
+                  <option value="9000000">90 lac</option>
+                  <option value="10000000">1 Cr</option>
+                  <option value="20000000">2 Cr</option>
+                  <option value="30000000">3 Cr</option>
+                  <option value="40000000">4 Cr</option>
+                  <option value="50000000">5 Cr</option>
+                  <option value="60000000">6 Cr</option>
+                  <option value="70000000">7 Cr</option>
+                  <option value="80000000">8 Cr</option>
+                  <option value="90000000">9 Cr</option>
+                  <option value="100000000">10 Cr</option>
+                  <option value="150000000">15 Cr</option>
+                  <option value="200000000">20 Cr</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Max budget <span>*</span></p>
+               <select name="maximum" class="input" required>
+                  <option value="5000000">5 lac</option>
+                  <option value="1000000">10 lac</option>
+                  <option value="2000000">20 lac</option>
+                  <option value="3000000">30 lac</option>
+                  <option value="4000000">40 lac</option>
+                  <option value="4000000">40 lac</option>
+                  <option value="5000000">50 lac</option>
+                  <option value="6000000">60 lac</option>
+                  <option value="7000000">70 lac</option>
+                  <option value="8000000">80 lac</option>
+                  <option value="9000000">90 lac</option>
+                  <option value="10000000">1 Cr</option>
+                  <option value="20000000">2 Cr</option>
+                  <option value="30000000">3 Cr</option>
+                  <option value="40000000">4 Cr</option>
+                  <option value="50000000">5 Cr</option>
+                  <option value="60000000">6 Cr</option>
+                  <option value="70000000">7 Cr</option>
+                  <option value="80000000">8 Cr</option>
+                  <option value="90000000">9 Cr</option>
+                  <option value="100000000">10 Cr</option>
+                  <option value="150000000">15 Cr</option>
+                  <option value="200000000">20 Cr</option>
+               </select>
+            </div>
+         </div>
+         <input type="submit" value="search property" name="search" class="btn">
+      </form>
+
+   </section>
+
+</div>
+
+
+<section class="services">
+
+   <h1 class="heading">our services</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/icon-1.png" alt="">
+         <h3>buy house</h3>
+         <p>Explore a wide range of properties available for purchase. Find your dream home today!"</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-2.png" alt="">
+         <h3>rent house</h3>
+         <p>Discover rental properties suited to your lifestyle. Start your search for the perfect rental home.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-3.png" alt="">
+         <h3>sell house</h3>
+         <p>Let us help you sell your property quickly and efficiently. Get the best value for your home with our expert assistance.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-4.png" alt="">
+         <h3>flats and buildings</h3>
+         <p>Browse through our listings of apartments and buildings. Find the perfect space to call home or invest in.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-5.png" alt="">
+         <h3>shops and malls</h3>
+         <p>Explore commercial spaces for rent or sale. Find the ideal location for your business venture.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-6.png" alt="">
+         <h3>24/7 service</h3>
+         <p>Our team is available around the clock to assist you with any inquiries or concerns. Customer satisfaction is our priority.</p>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+
+<footer class="footer">
+
+   <section class="flex">
+
+      <div class="box">
+         <a href="tel:1234567890"><i class="fas fa-phone"></i><span class="box1">+91 1234567890</span></a>
+         <a href="mailto:abc@gmail.com"><i class="fas fa-envelope"></i><span class="box1">abc@gmail.com</span></a>
+         <a href="#"><i class="fas fa-map-marker-alt"></i><span class="box1">India - 1010101</span></a>
+      </div>
+
+      <div class="box">
+         <a href="home.html"><span>Home</span></a>
+         <a href="about.html"><span>About</span></a>
+         <a href="contact.html"><span>Contact</span></a>
+      </div>
+
+      <div class="box">
+         <a href="#"><span>Facebook</span><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><span>Twitter</span><i class="fab fa-twitter"></i></a>
+         <a href="#"><span>Linkedin</span><i class="fab fa-linkedin"></i></a>
+         <a href="#"><span>Instagram</span><i class="fab fa-instagram"></i></a>
+
+      </div>
+
+   </section>
+
+   <div class="credit">&copy; copyright  by <span>Rentify</span> | All rights reserved!</div>
+
+</footer>
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
